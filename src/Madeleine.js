@@ -39,10 +39,9 @@
     var VIEWER_CREATE = true;
     var VIEWER_HEIGHT = 400;
     var VIEWER_WIDTH  = 640;
-
-    var USER_ROTATE_SENSITIVITY = options.USER_ROTATE_SENSITIVITY || 0.005;//IMPROVED
-    var USER_ZOOM_SENSITIVITY = options.USER_ZOOM_SENSITIVITY || 100;//IMPROVED
     var SCROLL_FACTOR = 10;
+    var USER_ROTATE_SENSITIVITY = 0.005;
+    var USER_ZOOM_SENSITIVITY = 100;
     
     // Necessary option check 
     if (!document.getElementById(options.target)) {
